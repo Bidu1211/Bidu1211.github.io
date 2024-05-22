@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  #logo1{
+
+    margin-left: 130px;
+    padding: 30px;
+  }
+
+
+#logo2{
+
+    height: 30px;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+
+ .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.off{
+    margin-top: 100px;
+    background-color: #149F39;
+    height:40px;
+    width: 205px;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    margin-left: 3px;
+font-family:  "Roboto", sans-serif;
+}
+
+
+.img{
+
+    margin-left: 180px;
+    padding: 40px;
+}
+ .hed{
+
+    /* margin-left:0px; */
+    margin-top: 40px;
+ }
+
+ .hed h1{
+    margin-right: 50px;
+    font-size: 80px;
+    font-family:  "Roboto", sans-serif;
+ }
+
+ .hed p{
+    font-family:  "Roboto", sans-serif;
+    text-align: justify;
+    width: 530px;
+    margin-left: 3px;
+    line-height: 1.5;
+ }
+
+ .exp{
+    margin-top: 50px;
+    background-color: #FFC066;
+    height:57px;
+    width: 174px;
+    text-align: center;
+    padding: 18px;
+    color:white;
+    margin-left: 3px;
+font-family:  "Roboto", sans-serif;
+ }
+
+ .fet{
+    display: flex;
+    margin-left: 300px;
+ }
+ .fett{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+   
+ }
+
+ .feature_content{
+
+    /* background-color: #FFC066; */
+    width: 250px;
+    
+ }
+
+ .feature_content h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+ }
+ .divider {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    margin-top: 40px;
+  }
+
+  .info{
+   background-color: #149F39;
+   align-items: center;
+   color: white;
+   width: 137px;
+   height: 43px;
+   font-size: 20px;
+
+}
+
+.menn button{
+ /* padding: 80px; */
+/*  */
+margin-top: 50px;
+margin-left: 660px;
+/* top: 954px;
+left: 662px; */
+
+}
+
+.menn p{
+
+   margin-top: 20px;
+   font-size: 50px;
+   margin-left: 530px;
+}
+
+
+.grid-image{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   transition: 0.2s ease-in-out;
+}
+
+.grid-image:hover {
+   transform: scale(1.05);
+   /* transition: 0.2s ease-in-out; */
+ }
+
+.grid{
+
+   margin-top: 50px;
+   margin-bottom: 90px;
+   transition: 0.2 ease-in-out;
+   display: grid;
+   grid-template-areas:
+   " I1 I1 I2 I5"
+     "I1 I1 I2 I7"
+     "I4 I3 I6  I7" ;
+     gap: 10px;
+}
+
+.item1{
+   grid-area: I1;
+}
+.item2{
+   grid-area: I2;
+}
+.item3{
+   grid-area: I3;
+}
+.item4{
+   grid-area: I4;
+}
+.item5{
+   grid-area: I5;
+}
+.item6{
+   grid-area: I6;
+}
+.item7{
+   grid-area: I7;
+}
+
+
+
+.fot{
+   background-color: #FFF0DB;
+   display: flex;
+   gap: 40px;
+   margin: 0% auto;
+   align-self: center;
+   /* margin-left: 100px; */
+   height: 300px;
+}
+
+
+.imgg{
+
+   margin-left: 150px;
+   margin-top: 40px;
+}
+
+footer .main{
+
+margin-left:50px;
+margin-top: 50px;
+
+}
+
+footer .m1{
+
+   font-size: 20px;
+}
+
+.main2{
+
+   margin-top: 15px;
+   line-height: 1.7;
+}
+
+
+.supp{
+
+  margin-top: 50px;
+  margin-left: 70px;
+}
+ .s1{
+
+font-size: 20px;
+}
+
+.supp2{
+
+   margin-top: 15px;
+   line-height: 1.7;
+}
+
+.last{
+   margin-left: 50px;
+   margin-top: 50px;
+}
+
+.p1{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+input {
+   margin-top: 15px;
+   height: 30px;
+   width: 280px;
+
+}
+
+.p2{
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 15px;
+}
+
+.ico{
+
+   margin-top: 10px;
+   height: 30px;
+}
+.fa {
+   /* padding: 10px; */
+   font-size: 30px;
+   width: 30px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+   height: 30px;
+ 
+ }
+
+
+ .fa:hover {
+   opacity: 0.7;
+ }
+ 
+ /* Set a specific color for each brand */
+ 
+ /* Facebook */
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+   margin-top: 0px;
+ }
+ 
+ /* Twitter */
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+
+ .fa-instagram {  
+   background: #125688;  
+   color: white;  
+ }  
+ .fa-youtube {  
+   background: #bb0000;  
+   color: white;  
+ }  
